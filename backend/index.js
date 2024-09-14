@@ -13,7 +13,7 @@ app.use(express.json());
 app.use('/api/news', newsRoutes);
   
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://frontend-olive-sigma.vercel.app/',
     credentials: true
 }));
 
