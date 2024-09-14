@@ -8,7 +8,7 @@
     try {
       const response = await axios.get(url + apiKey);
       res.send(response.data); 
-      console.log(response.data);
+      // console.log(response.data);
     } catch (error) {
       console.log(error);
       res.status(500).send('Error fetching news');
